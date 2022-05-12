@@ -1,3 +1,3 @@
-<h2>Upload Time++</h2>
+<h3 align="center">Upload Time++</h3>
 
 adds extact youtube posting time to videos
