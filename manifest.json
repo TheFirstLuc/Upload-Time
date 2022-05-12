@@ -1,0 +1,25 @@
+{
+    "name": "Upload Time++",
+    "description": "Shows exact YouTube upload time",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["storage", "alarms", "activeTab", "tabs", "webRequest", "webRequestBlocking", "webNavigation", "contextMenus", "notifications", "identity"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/images/icon.png",
+            "32": "/images/icon.png",
+            "48": "/images/icon.png",
+            "128": "/images/icon.png"
+        }
+    },
+    "icons": {
+        "16": "/images/icon.png",
+        "32": "/images/icon.png",
+        "48": "/images/icon.png",
+        "128": "/images/icon.png"
+    }
+}
